@@ -1,0 +1,12 @@
+.artworks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+
+  object-fit: contain;
+}
