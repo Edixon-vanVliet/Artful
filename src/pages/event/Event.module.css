@@ -1,0 +1,70 @@
+.imageWrapper {
+  border-radius: 24px;
+  margin: 20px auto 0px;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-position: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
+}
+
+.blurredImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  filter: blur(50px) brightness(0.9);
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  color: rgb(30, 28, 36);
+}
+
+.description {
+  color: #6f7296;
+}
+
+.description p {
+  margin-bottom: 16px;
+}
+
+.follow {
+  border: 2px solid #3659e3;
+  color: #3659e3;
+  background-color: transparent;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.follow:hover {
+  color: white;
+  background-color: #3659e3;
+}
+
+.button {
+  font-weight: bold;
+  padding: 0px 30px 1px 30px;
+  border: 2px solid #d1410c;
+  background-color: #d1410c;
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+}
