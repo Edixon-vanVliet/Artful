@@ -1,0 +1,37 @@
+.banner {
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.location {
+  color: #3659e3;
+}
+
+.city {
+  border-bottom: 2px solid #dbdae3;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 416px;
+  height: 44px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #a9a8b3;
+  color: #39364f;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f8f7fa;
+}
