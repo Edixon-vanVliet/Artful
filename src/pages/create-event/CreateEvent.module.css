@@ -1,0 +1,115 @@
+.container {
+  background-image: url("http://localhost:3000/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: cover;
+  background-color: rebeccapurple;
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.formWrapper {
+  margin: 0 auto;
+  padding: 20px 50px;
+  background-color: white;
+  border-radius: 5px;
+  width: 840px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.dateWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.input {
+  width: 360px;
+}
+
+.date {
+  flex-grow: 1;
+}
+
+.input,
+.date,
+.image {
+  height: 50px;
+}
+
+.input,
+.date,
+.image,
+.textarea {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdae3;
+  color: #7d818f;
+  border-radius: 5px;
+  padding: 1px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.input label,
+.date label,
+.image label,
+.textarea label {
+  width: 100%;
+  padding: 2px 12px 0px 12px;
+  z-index: 1;
+}
+
+.input input {
+  width: 332px;
+}
+
+.input input,
+.date input,
+.image input {
+  height: 22px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.input input,
+.date input,
+.image input,
+.textarea textarea {
+  outline: none;
+  border: 1px solid white;
+  padding: 0px 12px 6px 12px;
+}
+
+.textarea textarea {
+  height: 85px;
+  resize: none;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  padding: 0px 30px 1px 30px;
+  border: 2px solid #d1410c;
+  background-color: #d1410c;
+  height: 40px;
+  border-radius: 5px;
+  width: 350px;
+  color: white;
+  cursor: pointer;
+}
